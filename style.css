@@ -97,7 +97,12 @@ p {
     cursor: pointer;
     transition: transform 300ms ease-in-out;
 }
-.header li:hover {
+.header-right li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.header-left li:hover {
     cursor: pointer;
     transform: scale(1.2);
 }
