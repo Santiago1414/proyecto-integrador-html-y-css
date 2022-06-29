@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Nunito", sans-serif;
+  }
+head {
+    display: none;
+}
+
+body{
+    background-color: #fff;
+    margin: 0px;
+}
+
+html, body, p, span/* , .field__label, .field__input, .field__textarea, .field__select */ {
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    background: #fff;
+    color: #666;
+}
+div{
+    display: block;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.background--primary {
+        background-color: #ffcae6;
+    }
+.header-announcement{
+    width: 100vw;
+    height: 42.5px;
+    padding: 0px;
+}
+
+.header-announcement__text {
+    text-align: center;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    font-size: 0.9375rem;
+    margin: 0px;
+}
+.header-top {
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    position: relative;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+ 
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 500px;
+  
+}
+.header-left ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 40px;
+    
+}
+
+
+.header-right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.header-right li, .header-left li {
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+}
+.header li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.navbar i {
+    font-size: larger;
+}
