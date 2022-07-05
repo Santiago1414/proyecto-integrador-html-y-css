@@ -364,3 +364,12 @@ h2{
 
 
 }
+
+/* FOOTER */
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
