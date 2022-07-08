@@ -268,10 +268,10 @@ h2{
     
 }
 
-.indumentaria-h2{
-    padding-top: 50px;
-}
 
+.vestidos-h2 {
+    padding-top: 80px;
+}
 
 /* INICIO CONTACTO */
 
@@ -372,4 +372,34 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    
 }
+
+.footer-container h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.footer-container img{
+    width: 10%;
+    height: 20%;
+
+    
+}
+
+.footer-container {
+    border-top: 1px solid rgba(0,0,0,0.15);
+}
+
+.redes-sociales-icon i {
+    font-size: 25;
+}
+.redes-sociales-icon ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
