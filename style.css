@@ -232,8 +232,8 @@ h2{
 
 .img-section{
     display: flex;
-    max-width: 100%;
-    max-height: 200px;
+    max-width: 90%;
+    max-height: 300px;
     border-style: groove;
     border-radius:20px;
     border: 1.5px solid black;
@@ -374,16 +374,18 @@ h2{
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
-    
+    padding-bottom: 30px;
 }
-
+.footer-left{
+    padding-left: 50px;
+}
 .footer-container h3{
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 15px;
 }
 .footer-container img{
-    width: 10%;
+    width: 70px;
     height: 20%;
 
     
@@ -393,13 +395,61 @@ h2{
     border-top: 1px solid rgba(0,0,0,0.15);
 }
 
+
 .redes-sociales-icon i {
     font-size: 25;
+    
 }
 .redes-sociales-icon ul{
+    padding-right: 120px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10%;
+    /* gap: 10% */
+    
+    justify-content: space-between;
+}
+.footer-right-bottom{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    
+
 }
 
+.contact-conteiner{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-conteiner i {
+    list-style: none;
+    color: rgb(58, 53, 53);
+    padding-right: 10px;
+    
+}
+
+.footer-a{
+    color:rgb(58, 53, 53) ;
+    font-size: 12px;
+    
+}
+
+.footer-a i{
+    color: rgb(56, 54, 54);
+    font-size: 25;
+    
+}
+
+/* UNDER FOOTER */
+.under-footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(0,0,0,0.15) ;
+    height: 50px;
+    padding-right: 50px;
+}
+
+.under p{
+    font-size: 12;
+}
