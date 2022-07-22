@@ -73,3 +73,24 @@ body{
     color: #202157;
     font-family: 'Quicksand';
 }
+
+@media (max-width: 900px){
+    .login_inputs input{
+        height: 30px;
+        width: 90%;
+        border: none;
+        padding: 0 20px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        color: #202157;
+        font-family: 'Quicksand';
+       
+    }
+    .login_inputs{
+       padding-left: 10px;
+    }
+    .button{
+        width: 50% !important;
+       
+     }
+}

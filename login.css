@@ -5,7 +5,7 @@ html, body {
     font-weight: 600;
     letter-spacing: 0.6px;
     font-size: 16px;
-    background: #390099;
+    background: #f2cfaf;
     color:  white;
 }
 
@@ -91,16 +91,16 @@ a {
 }
 
 @media screen and (min-width: 1000px) {
-    .login__img {
+   /*  .login__img {
         visibility: visible;
         border-radius: 0 20px 20px 0;
-        width: 50%;
-        height: 50%;
+        width: 20%;
+        height: 20%;
         background-image:  url(imgs/logoarcana.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-    }
+    } */
     .login__inputs {
         width: 100%;
         height: 100%;
@@ -109,6 +109,7 @@ a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 0;
     }
     .login__inputs p {
         width: 70%;
@@ -130,3 +131,15 @@ a {
     }
 }
 
+/* @media screen and (min-width: 1456){
+    .login__img {
+        visibility: visible;
+        border-radius: 0 20px 20px 0;
+        width: 20%;
+        height: 50%;
+        background-image:  url(imgs/logoarcana.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+} */
