@@ -328,7 +328,7 @@ h2{
 @media (max-width: 1250px)
 {
     .img-section{
-        width: 100%;
+        width: 90%;
         height: 50%;
         border-radius:20px;
         max-width: 30%;
@@ -360,13 +360,14 @@ h2{
 }
 
 
-@media (min-width:527)
+@media (max-width:877px)
 {
     .img-section{
-        width: 50%;
+        width: 100%;
         height: 50%;
         border-radius:20px;
-        
+        max-width: 100%;
+        max-height: 100%;
     }
 .section-info {
     background-color: white;
